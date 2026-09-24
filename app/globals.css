@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  font-family: var(--font-inter), var(--font-noto-bengali), system-ui, -apple-system, sans-serif;
+}
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+  }
+  header, aside, .print\:hidden {
+    display: none !important;
+  }
+  #printable-invoice, #printable-slip {
+    box-shadow: none !important;
+    border: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+}
+

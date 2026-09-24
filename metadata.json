@@ -1,0 +1,6 @@
+{
+  "name": "DokanKhata Pro — Shop & Service Manager",
+  "description": "Production-ready bilingual (Bangla + English) Shop Management Web App for Bangladeshi retail, mobile banking, servicing, and computer shops.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
